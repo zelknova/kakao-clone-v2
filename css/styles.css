@@ -10,6 +10,7 @@
 @import "settings.css";
 @import "chat.css";
 @import "mobile.css";
+
 /* @import "normalize.css";*/
 * {
   box-sizing: border-box;
@@ -41,4 +42,9 @@ a {
 
 main {
   animation: fadeIn 0.5s ease-in-out;
+}
+
+.smallScreen__text {
+  position: fixed;
+  bottom: 50px;
 }

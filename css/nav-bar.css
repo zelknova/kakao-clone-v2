@@ -21,17 +21,46 @@
   position: relative;
 }
 
-.nav .nav__badge {
+.nav .nav__badge1 {
+  opacity: 1;
   position: absolute;
   top: -7px;
   right: -7px;
   font-size: 10px;
   color: white;
   background-color: #dc5d46;
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+.nav .nav__badge2 {
+  opacity: 0;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.nav .nav__badge1:hover {
+  opacity: 0;
+}
+
+.nav .nav__badge2:hover {
+  opacity: 1;
+  transform: scale(1.5);
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
